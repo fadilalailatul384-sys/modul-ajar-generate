@@ -12,7 +12,7 @@ class UserSeeder extends Seeder
     {
         // Membuat data user untuk keperluan testing login
         User::create([
-            'username' => 'pak_toto',
+            'username' => 'pak_uli',
             'password' => Hash::make('password123'), // Password di-hash biar aman
         ]);
     }

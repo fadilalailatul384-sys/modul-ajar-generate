@@ -16,7 +16,7 @@ class GuruSeeder extends Seeder
         if ($user) {
             Guru::create([
                 'user_id' => $user->id, // Mengambil ID dari user pak_toto
-                'nama_guru' => 'Pak Toto, S.Kom., M.T.',
+                'nama_guru' => 'Pak Uli, M.Kom.',
                 'asal_sekolah' => 'Universitas Negeri',
             ]);
         }
